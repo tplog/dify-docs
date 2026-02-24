@@ -84,15 +84,11 @@ Templates can generate interactive HTML forms for structured data collection in 
 <form data-format="json">
   <label for="username">Username:</label>
   <input type="text" name="username" required />
-  
   <label for="priority">Priority:</label>
   <input type="select" name="priority" data-options='["low","medium","high"]'/>
-  
   <label for="message">Message:</label>
   <textarea name="message" placeholder="Enter your message"></textarea>
-  
-  <input type="checkbox" name="urgent" data-tip="Mark as urgent"/>
-  <button data-variant="primary">Submit</button>
+  <button type="submit" data-variant="primary">Submit</button>
 </form>
 ```
 
